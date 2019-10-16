@@ -1,10 +1,9 @@
 Serialize
 =========
 
-This is a test serialize for PHP projects. With this template you can speed up the process of creating of new:
-open-source, proprietary, test, demo and etc. projects!
+This is a test serialize lib for PHP projects. 
 
-This serialize use default template has basic configuration for [PHPUnit](https://github.com/sebastianbergmann/phpunit) and
+This serialize use default template basic configuration for [PHPUnit](https://github.com/sebastianbergmann/phpunit) and
 [PHP-CS-Fixer](https://github.com/friendsofphp/php-cs-fixer) libraries, configured `composer.json`
 with PSR-4 namespaces for source code and tests, `.gitignore` with basic files and directories to exclude them from Git, changelog file
 and README with cool  badges :)
