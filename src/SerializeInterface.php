@@ -1,8 +1,7 @@
 <?php
 
 
-namespace App\Serialize;
-
+namespace App;
 
 interface SerializeInterface
 {
