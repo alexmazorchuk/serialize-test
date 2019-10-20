@@ -1,12 +1,15 @@
 <?php
 
+declare(strict_types=1);
 
 namespace App;
+
+use Symfony\Component\Yaml\Yaml;
 
 final class YamlSerialize extends AbstractSerialize implements SerializeInterface
 {
     public function serialize(object $object)
     {
-        return yaml_parse($this->objectToArray($object));
+        return Yaml::dump($this->objectToArray($object));
     }
 }

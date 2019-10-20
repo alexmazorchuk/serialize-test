@@ -1,5 +1,6 @@
 <?php
 
+declare(strict_types=1);
 
 namespace App;
 
@@ -20,7 +21,6 @@ abstract class AbstractSerialize implements SerializeInterface
 
         foreach ((array) $object as $key => $value) {
             if (false !== \strpos($key, "\0")) {
-
                 $key = $this->getProperties($key);
             }
 
@@ -30,6 +30,7 @@ abstract class AbstractSerialize implements SerializeInterface
                 $array[$key] = $value;
             }
         }
+
         return $array;
     }
 }
