@@ -16,10 +16,10 @@
   ],
   "minimum-stability": "stable",
   "require": {
-    "php": ">=7.2"
+    "php": ">=7.2",
+    "symfony/yaml": "^4.3"
   },
   "require-dev": {
-    "phpunit/phpunit": "^8.0",
     "friendsofphp/php-cs-fixer": "^2.14"
   },
   "repositories": [
@@ -39,7 +39,7 @@
     }
   },
   "scripts": {
-    "cs-check": "php-cs-fixer fix --diff --ansi --dry-run",
+    "cs-check": "php-cs-fixer fix --allow-risky=yes --diff --ansi --dry-run",
     "cs-fix": "php-cs-fixer fix --diff --ansi",
     "tests": "phpunit --colors=always"
   },
@@ -47,4 +47,3 @@
     "sort-packages": true
   }
 }
-
