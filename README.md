@@ -7,10 +7,6 @@ This serialize use default template basic configuration [greeflas](https://githu
 this library maybee halp to serialize some objects to JSON, XML or YAMl formats.
 
 
-[![Packagist](https://img.shields.io/packagist/v/greeflas/default-project.svg)](CHANGELOG.md)
-[![Packagist](https://img.shields.io/packagist/dt/greeflas/default-project.svg)](https://packagist.org/packages/greeflas/default-project)
-![Custom badge](https://img.shields.io/badge/greeflas-default--project-red.svg)
-
 Installation
 ------------
 
@@ -23,7 +19,7 @@ $ composer create-project alexmazorchuk/serialize-test project-name
 Usage
 -----
 
-Run from ./test/run.php
+Run ./tests/runSerialize.php
 
 
 License
