@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App;
+namespace Alexmazorchuk\Sort;
 
 abstract class AbstractSerialize implements SerializeInterface
 {

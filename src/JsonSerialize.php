@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App;
+namespace Alexmazorchuk\Sort;
 
 final class JsonSerialize extends AbstractSerialize implements SerializeInterface
 {

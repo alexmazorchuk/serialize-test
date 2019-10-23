@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App;
+namespace Alexmazorchuk\Sort;
 
 final class XmlSerialize extends AbstractSerialize implements SerializeInterface
 {

@@ -2,16 +2,16 @@
   "name": "alexmazorchuk/serialize-test",
   "description": "This is a test serialize lib for homework PHP projects.",
   "keywords": [
-    "default-project",
-    "serialize"
+    "sort",
+    "library",
+,    "serialize"
   ],
-  "type": "project",
+  "type": "library",
   "license": "MIT",
   "authors": [
     {
       "name": "Alexandr Mazorchuk",
-      "email": "019maz@gmail.com",
-      "role": "Maintainer"
+      "email": "019maz@gmail.com"
     }
   ],
   "minimum-stability": "stable",
@@ -22,20 +22,14 @@
   "require-dev": {
     "friendsofphp/php-cs-fixer": "^2.14"
   },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/alexmazorchuk/serialize-test"
-    }
-  ],
   "autoload": {
     "psr-4": {
-      "App\\": "src/"
+      "Alexmazorchuk\\Sort\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "App\\Test\\": "tests/"
+      "Alexmazorchuk\\Sort\\Test\\": "tests/"
     }
   },
   "scripts": {

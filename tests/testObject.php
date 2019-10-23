@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Test;
+namespace Alexmazorchuk\Sort\Tests;
 
 final class testObject
 {

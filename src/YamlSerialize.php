@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App;
+namespace Alexmazorchuk\Sort;
 
 use Symfony\Component\Yaml\Yaml;
 
