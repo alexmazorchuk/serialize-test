@@ -13,7 +13,7 @@ Installation
 Run composer project
 
 ```bash
-$ composer create-project alexmazorchuk/serialize-test project-name
+$ composer create-project alexmazorchuk/serialize-test
 ```
 
 Usage
